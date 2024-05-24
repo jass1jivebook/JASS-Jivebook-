@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JASS Jivebook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .section-title {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JASS Jivebook</h1>
+        <p>Your Social and Religious Beliefs Platform</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <h2 class="section-title">About Us</h2>
+        <p>Welcome to JASS Jivebook, a unique social media platform designed to connect people through shared interests and religious beliefs. Our mission is to create a community where individuals can freely express their thoughts, engage in meaningful discussions, and find support from like-minded individuals.</p>
+        <p>At JASS Jivebook, we believe in the power of community and faith. Whether you are looking to share your experiences, learn from others, or deepen your understanding of various religious beliefs, our platform provides a safe and welcoming space for you to do so.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p>If you have any questions, suggestions, or would like to get in touch, please email us at:</p>
+        <p><a href="mailto:info@jassjivebook.com">info@jassjivebook.com</a></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 JASS Jivebook. All rights reserved.</p>
+    </footer>
+</body>
+</html>
